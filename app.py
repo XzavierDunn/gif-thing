@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 CORS = CORS(app)
 
-api_key = ""
+api_key = "rz64jDItYN6FFbSLQxspAHipWXh8D48R"
 
 @app.route('/')
 def get_gif():
